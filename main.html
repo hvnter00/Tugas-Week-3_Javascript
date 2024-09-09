@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator and Converter</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="mainlayer">
+        <div class="converter">
+            <h1>Grade Converter</h1>
+            <input id="numericinput">
+            <br>
+            <button onclick="converter()">convert</button>
+            <h3 id="convertResult"></h3>
+
+        </div>
+
+        <hr>
+
+        <div class="calculator">
+            <h1>Calculator</h1>
+            <input type="number" placeholder="Insert first number" id="number1" />
+            <br>
+            <input type="number" placeholder="Insert second number" id="number2" />
+            <br>
+            <button id="addition">+</button>
+            <button id="subtraction">-</button>
+            <button id="multiplication">X</button>
+            <button id="division">/</button>
+            <br>
+            <input type="number" readonly placeholder="Result" id="result"/>
+        </div>
+        
+        <hr>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

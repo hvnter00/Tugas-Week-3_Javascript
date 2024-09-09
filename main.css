@@ -1,0 +1,36 @@
+.body{
+    display: flex ;
+}
+
+.converter, .calculator{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.converter h1, .converter h3, .calculator h1{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.converter button{
+    color: rgb(245, 252, 246);
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.calculator input{
+    margin: 8px 0;
+}
+
+.calculator button{
+    margin: 8px 0;
+    gap: 10px;
+}
+
+.calculator input:read-only{
+    background-color: antiquewhite;
+}
